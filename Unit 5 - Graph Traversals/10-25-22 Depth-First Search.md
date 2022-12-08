@@ -46,7 +46,7 @@ Each edge in $G$ has a type
 - *Forward* edges are ancestor to descendant
 - *Back* edges are descendant to ancestor (implies cycle)
 - *Cross* edges have no ancestor relation
-![DFS Tree](/Resources/Pasted image 20221025141922.png)
+![DFS Tree](/Resources/Pasted%20image%2020221025141922.png)
 
 ## Discovery and Finish Times
 We want to create a table of vertices, discovery, and finish times
@@ -82,7 +82,7 @@ DFS(u):
 	- $degree(u)$ for each call; $sum(degree(u))$ is $m$ (number of edges)
 Total: $O(n + m)$
 
-![Finish Times](/Resources/Pasted image 20221025143436.png)
+![Finish Times](/Resources/Pasted%20image%2020221025143436.png)
 
 ### Classifying Edges
 If $u$ is discovered first and there is a path from $u$ to $v$
@@ -90,7 +90,7 @@ If $u$ is discovered first and there is a path from $u$ to $v$
 - *tree* or *forward* edge
 
 If $u$ is discovered first and no path from $u$ to $v$
-- $d[u] < f[u] <d[v] < f[v]$
+- $d[u] < f[u] < d[v] < f[v]$
 - *back* edge
 
 If $v$ is discovered first and there is a path from $v$ to $u$
