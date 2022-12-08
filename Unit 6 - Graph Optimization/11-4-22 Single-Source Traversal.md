@@ -27,7 +27,7 @@ Shortest paths algorithm. Modified version of BFS for non-negatively weighted gr
 **Closest** node is the next *unexplored* node with the smallest upper bound on it's distance.
 
 ## Demo
-!(Resources/Pasted image 20221101145911.png|350)
+![Demo](/Resources/Pasted image 20221101145911.png|350)
 
 | ---  | s   | B        | C        | D        | E        |
 | ---- | --- | -------- | -------- | -------- | -------- |
