@@ -25,7 +25,7 @@ $P(v,j) =$ if $OPT(v,j) = OPT(u,j-1) + w(u,v)$ then $P(v,j) = u$.
 ## Logistics
 Algorithm uses $O(n^2)$ space to make a table, where width is number of hops, and height is the current edge. Fill in minimum path using $j$ hops from starting node $s$.
 
-![Bellman-Ford](/Resources/Pasted image 20221108141830.png|300)
+![Bellman-Ford](/Resources/Pasted%20image%2020221108141830.png|300)
 
 |     | 0        | 1        | 2   | 3   | 4   |
 | --- | -------- | -------- | --- | --- | --- |
