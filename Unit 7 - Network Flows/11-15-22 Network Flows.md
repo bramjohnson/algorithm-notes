@@ -54,7 +54,7 @@ Original edge $e$ has *flow* and *capacity*. Use graph made from greedy max flow
 - *Residual edge* allows "undoing of flow". $e = (u,v)$ and $e^R = (v,u)$. $c(e^R) = f(e)$
 - *Residual graph* replaces all edge capacities with residual edges. Make backwards edge if edge has flow > 0 on it. Make forwards edge if flow < capacity.
 
-!(Resources/residual.png|700)
+!(Resources/residual.png)
 
 ## Ford-Fulkerson
 Start with $f(e) = 0$ for all edge $\in E$.
